@@ -19,7 +19,7 @@ body{
 .titulo{
     color: #ee2c82;
     font-size: 30px;
-    text.align: center;
+    text-align: center;
     margin-bottom: 60px;
 
 }
@@ -41,7 +41,6 @@ header{
 nav{
     text-align: right;
     padding: 30px 50px 0 0;
-    
     background: linear-gradient(to right, hsla(351, 83%, 55%, 0.5), hsla(203, 100%, 50%, 0.5));
     width: 100%;
     position: fixed;
@@ -254,3 +253,149 @@ header .textos-header{
 .social img:hover {
     margin-top: -30px;
     }
+
+/*ADAPTAR A MÓVILES*/
+@media screen and (max-width:1450px){
+    .header{
+        background-position: center;
+    }
+
+    .textos-header h1{
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+
+    .textos-header h3{
+        font-size: 25px;
+    }
+
+    nav > a{
+        font-size: 18px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-align: center;
+        
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .h1{
+        font-size: 55px;
+    }
+    .contenido-textos h3{
+        margin-bottom: 100px;
+        font-size: 25px;
+    }
+
+    .socialcont{
+        width: 50%;
+        
+    }
+
+    .footer{
+        align-items: center;
+    }
+
+    .social{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .textosocial h3{
+        font-size: 25px;
+    }
+
+    .coral h2{
+        font-size: 20px;
+    }
+
+}
+
+
+/*ADAPTAR A -500*/
+@media screen and (max-width:500px){
+    .header{
+        background-position: center;
+        height: 40%;
+    }
+
+    .textos-header h1{
+        font-size: 55px;
+        margin-bottom: 25px;
+    }
+
+    .textos-header h3{
+        font-size: 30px;
+    }
+
+    nav > a{
+        font-size: 15px;
+        margin-left: 4px;
+        text-align: center;
+        
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+    }
+
+    .contenedor-sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .h1{
+        font-size: 55px;
+    }
+    .contenido-textos h3{
+        margin-bottom: 100px;
+        font-size: 25px;
+    }
+
+    .galeria-port{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria-port a{
+        margin-bottom: 30px;
+
+    }
+
+    .textosocial h3{
+        font-size: 25px;
+    }
+
+    .coral h2{
+        font-size: 20px;
+    }
+
+}
